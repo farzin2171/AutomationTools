@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "klq9ZS1/LGP+iyeKdn5GSEifPKmV8yipOzveDmsj61n6P8/6t/7PEnUjMfNniStMxJAz5Ua1zvOF9Q6DRgaGDA==",
+  "success": true,
+  "projectFilePath": "C:\\WorkSmart\\AutomationTools\\src\\AppCaptureAutomationTools\\AppCaptureAutomationTools.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://proget.equisoft.com/nuget/InsuranceElements.Microservices.Dev'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://www.myget.org/F/refit/api/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

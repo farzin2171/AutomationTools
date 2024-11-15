@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCaptureAutomationTools", "AppCaptureAutomationTools.csproj", "{193CD08A-BA3B-4DC6-9932-3BDE894F0EC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{193CD08A-BA3B-4DC6-9932-3BDE894F0EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193CD08A-BA3B-4DC6-9932-3BDE894F0EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193CD08A-BA3B-4DC6-9932-3BDE894F0EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193CD08A-BA3B-4DC6-9932-3BDE894F0EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8676C8C4-D6CF-443C-921A-05A634FCBCE2}
+	EndGlobalSection
+EndGlobal

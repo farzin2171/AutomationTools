@@ -1,0 +1,17 @@
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\bin\Debug\net8.0-windows\AppCaptureAutomationTools.exe
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\bin\Debug\net8.0-windows\AppCaptureAutomationTools.deps.json
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\bin\Debug\net8.0-windows\AppCaptureAutomationTools.runtimeconfig.json
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\bin\Debug\net8.0-windows\AppCaptureAutomationTools.dll
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\bin\Debug\net8.0-windows\AppCaptureAutomationTools.pdb
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\obj\Debug\net8.0-windows\AppCaptureAutomationTools.Form1.resources
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\obj\Debug\net8.0-windows\AppCaptureAutomationTools.csproj.GenerateResource.cache
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\obj\Debug\net8.0-windows\AppCaptureAutomationTools.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\obj\Debug\net8.0-windows\AppCaptureAutomationTools.AssemblyInfoInputs.cache
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\obj\Debug\net8.0-windows\AppCaptureAutomationTools.AssemblyInfo.cs
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\obj\Debug\net8.0-windows\AppCaptureAutomationTools.csproj.CoreCompileInputs.cache
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\obj\Debug\net8.0-windows\AppCaptureAutomationTools.sourcelink.json
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\obj\Debug\net8.0-windows\AppCaptureAutomationTools.dll
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\obj\Debug\net8.0-windows\refint\AppCaptureAutomationTools.dll
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\obj\Debug\net8.0-windows\AppCaptureAutomationTools.pdb
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\obj\Debug\net8.0-windows\AppCaptureAutomationTools.genruntimeconfig.cache
+C:\WorkSmart\AutomationTools\src\AppCaptureAutomationTools\obj\Debug\net8.0-windows\ref\AppCaptureAutomationTools.dll
