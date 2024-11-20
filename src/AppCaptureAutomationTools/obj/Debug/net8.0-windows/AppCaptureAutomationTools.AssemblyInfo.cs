@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppCaptureAutomationTools")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96f6cc250318b44579b3a49140f4d254a58bef2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppCaptureAutomationTools")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppCaptureAutomationTools")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

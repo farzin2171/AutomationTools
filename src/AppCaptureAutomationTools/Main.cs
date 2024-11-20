@@ -11,9 +11,10 @@ namespace AppCaptureAutomationTools
             InitializeComponent();
         }
 
-        private void btnStart_Click(object sender, EventArgs e)
+        private async void btnStart_Click(object sender, EventArgs e)
         {
-            int numberOfRequests = 3; // Number of simultaneous requests
+            btnStart.Enabled = false;
+            int numberOfRequests = 6; // Number of simultaneous requests
             var tasks = new Task[numberOfRequests];
 
             // Define form fields
@@ -34,16 +35,52 @@ namespace AppCaptureAutomationTools
 
         };
 
+
+
             var formData3 = new Dictionary<string, string>
         {
             { "ProductCode", "ff774ed4-1edd-45da-af99-a0e8cf1f3c24" },
             { "State", "CO" },
             { "FormCode", "NSSInvestmentGrowth" },
             { "ApplicationNumber", $"{RandomGenerator.GenerateApplicationNumber(txtApplicationPrefix.Text)}" },
-            };
+        };
+
+            var formData4 = new Dictionary<string, string>
+        {
+            { "ProductCode", "385e81db-1b98-462a-8d5c-7876bfecab84" },
+            { "State", "IN" },
+            { "FormCode", "NSSPreNeedLife" },
+            { "ApplicationNumber", $"{RandomGenerator.GenerateApplicationNumber(txtApplicationPrefix.Text)}" },
+
+        };
+
+            var formData5 = new Dictionary<string, string>
+        {
+            { "ProductCode", "72b830d2-0228-4133-9b4d-73a098776cab" },
+            { "State", "FL" },
+            { "FormCode", "NSSPreNeedAnnuity" },
+            { "ApplicationNumber", $"{RandomGenerator.GenerateApplicationNumber(txtApplicationPrefix.Text)}" },
+
+        };
+
+            var formData6 = new Dictionary<string, string>
+        {
+            { "ProductCode", "13b2c00f657549d19d47a270bf588765" },
+            { "State", "CA" },
+            { "FormCode", "NSSLifeYouthTerm" },
+            { "ApplicationNumber", $"{RandomGenerator.GenerateApplicationNumber(txtApplicationPrefix.Text)}" },
+
+        };
             tasks[0] = MakeRequestAsync(txtChunk.Text, txtChunck1.Text, txtChunk2.Text, txtChunck3.Text, formData, txtTenant.Text, txtAppCaptureAddress.Text);
             tasks[1] = MakeRequestAsync(txtChunk.Text, txtChunck1.Text, txtChunk2.Text, txtChunck3.Text, formData2, txtTenant.Text, txtAppCaptureAddress.Text);
             tasks[2] = MakeRequestAsync(txtChunk.Text, txtChunck1.Text, txtChunk2.Text, txtChunck3.Text, formData3, txtTenant.Text, txtAppCaptureAddress.Text);
+            tasks[3] = MakeRequestAsync(txtChunk.Text, txtChunck1.Text, txtChunk2.Text, txtChunck3.Text, formData4, txtTenant.Text, txtAppCaptureAddress.Text);
+            tasks[4] = MakeRequestAsync(txtChunk.Text, txtChunck1.Text, txtChunk2.Text, txtChunck3.Text, formData5, txtTenant.Text, txtAppCaptureAddress.Text);
+            tasks[5] = MakeRequestAsync(txtChunk.Text, txtChunck1.Text, txtChunk2.Text, txtChunck3.Text, formData6, txtTenant.Text, txtAppCaptureAddress.Text);
+
+
+            await Task.WhenAll(tasks);
+            btnStart.Enabled = true;
 
         }
 
